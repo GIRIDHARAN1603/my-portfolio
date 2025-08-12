@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giri Dharan - Hotelier | Customer Experience Specialist | Entrepreneur</title>
+    <meta name="description" content="Giri Dharan is a hospitality professional, entrepreneur, and customer experience specialist crafting memorable experiences in the food and service industry.">
+    <meta name="keywords" content="Giri Dharan, hotelier, customer experience, entrepreneur, food business, hospitality">
+    <meta name="author" content="Giri Dharan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Giri Dharan - Hotelier & Entrepreneur">
+    <meta property="og:description" content="Crafting memorable experiences, one guest at a time. Professional portfolio showcasing hospitality expertise and business ventures.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giridharan.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' fill='%234E7777'/%3e%3ctext x='50' y='60' font-family='serif' font-size='40' font-weight='bold' text-anchor='middle' fill='%23F8F6F2'%3eGD%3c/text%3e%3c/svg%3e">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <!-- LOGO: Replace this section with your actual logo image or custom design -->
+                <div class="brand-logo">
+                    <div class="logo-icon">GD</div>
+                    <!--span class="logo-text">Giri Dharan</span -->
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#ventures" class="nav-link">Ventures</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-pattern pattern-1"></div>
+            <div class="hero-pattern pattern-2"></div>
+            <div class="hero-pattern pattern-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Giri Dharan</h1>
+                <p class="hero-title">Hotelier | Customer Experience Specialist | Entrepreneur</p>
+                <p class="hero-tagline">"Crafting memorable experiences, one guest at a time."</p>
+                <button class="btn btn--primary btn--lg hero-cta" onclick="scrollToSection('contact')">
+                    Get In Touch
+                    <i data-feather="arrow-right"></i>
+                </button>
+            </div>
+            <div class="hero-avatar">
+                <!-- PROFILE PICTURE: Replace the src attribute with your actual photo -->
+                <!-- For now, this shows a placeholder. Add your image path in the src attribute below -->
+                <div class="profile-image-container">
+                    <img src="profilepic.jpg" alt="Giri Dharan Profile Photo" class="profile-image" id="profile-photo">
+
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator" onclick="scrollToSection('about')">
+                <i data-feather="chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="about-bg-pattern"></div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I am Giri Dharan, with a background in Hotel Management and experience across hotels, restaurants, and customer service.</p>
+                    <p>My journey includes working in multiple industries, building brands, and creating innovative food businesses. I'm passionate about delivering exceptional customer experiences and building sustainable business ventures in the hospitality sector.</p>
+                    <div class="current-ventures">
+                        <h3>Current Business Ventures:</h3>
+                        <ul class="ventures-list">
+                            <li><strong>Whiskey and Crumb</strong> - Home Bakery</li>
+                            <li><strong>Starbird Kitchen</strong> - Upcoming Cloud Kitchen</li>
+                            <li><strong>G2V Café</strong> - Chai, Juice & Sandwich Café</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="section experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024" data-color="mint">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Customer Experience Manager</h3>
+                        <h4>Chaayos</h4>
+                        <p>Brewing smiles and smooth operations at Chaayos</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2023–2024" data-color="coral">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Customer Experience Associate</h3>
+                        <h4>INTRCITY SmartBus</h4>
+                        <p>Customer operations and service excellence</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2021–2023" data-color="lavender">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Team Member</h3>
+                        <h4>Taco Bell</h4>
+                        <p>Food prep, shift coordination, customer service</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2019" data-color="amber">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>One-Day Catering Member</h3>
+                        <h4>Star Hotel</h4>
+                        <p>Banquet setup, table arrangements, culinary presentation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Ventures Section -->
+    <section class="section ventures-section" id="ventures">
+        <div class="container">
+            <h2 class="section-title">Projects & Ventures</h2>
+            <div class="ventures-grid">
+                <div class="venture-card terracotta">
+                    <div class="venture-icon">
+                        <i data-feather="coffee"></i>
+                    </div>
+                    <h3>Whiskey and Crumb</h3>
+                    <p class="venture-type">Home Bakery</p>
+                    <p>Home bakery specializing in premium desserts and baked goods crafted with passion and quality ingredients.</p>
+                    <div class="coming-soon-badge">Coming Soon</div>
+                </div>
+                <div class="venture-card sage coming-soon">
+                    <div class="venture-icon">
+                        <i data-feather="truck"></i>
+                    </div>
+                    <h3>Starbird Kitchen</h3>
+                    <p class="venture-type">Cloud Kitchen</p>
+                    <p>Innovative cloud kitchen concept launching soon, focusing on delivery-first culinary experiences.</p>
+                    <div class="coming-soon-badge">Coming Soon</div>
+                </div>
+                <div class="venture-card dusty-rose">
+                    <div class="venture-icon">
+                        <i data-feather="home"></i>
+                    </div>
+                    <h3>G2V Café</h3>
+                    <p class="venture-type">Neighborhood Café</p>
+                    <p>Community-focused café serving freshly brewed chai, healthy juices, and delicious sandwiches.</p>
+                    <div class="coming-soon-badge">Coming Soon</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="skills-bg-pattern"></div>
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-item terracotta">
+                    <div class="skill-icon">
+                        <i data-feather="briefcase"></i>
+                    </div>
+                    <h3>Inventory Management</h3>
+                </div>
+                <div class="skill-item sage">
+                    <div class="skill-icon">
+                        <i data-feather="smile"></i>
+                    </div>
+                    <h3>Billing Operations</h3>
+                </div>
+                <div class="skill-item dusty-rose">
+                    <div class="skill-icon">
+                        <i data-feather="users"></i>
+                    </div>
+                    <h3>Hospitality Management</h3>
+                </div>
+                <div class="skill-item amber">
+                    <div class="skill-icon">
+                        <i data-feather="trending-up"></i>
+                    </div>
+                    <h3>Food Business Management</h3>
+                </div>
+                <!--<div class="skill-item lavender">
+                    <div class="skill-icon">
+                        <i data-feather="award"></i>
+                    </div>
+                    <h3>Branding</h3>
+                </div>-->
+                <!--<div class="skill-item coral">
+                    <div class="skill-icon">
+                        <i data-feather="message-circle"></i>
+                    </div>
+                    <h3>Communication</h3>
+                </div>-->
+                <div class="skill-item mint">
+                    <div class="skill-icon">
+                        <i data-feather="calendar"></i>
+                    </div>
+                    <h3>Event Setup</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="contact-bg-pattern"></div>
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Ready to create exceptional experiences together? Reach out to discuss opportunities in hospitality, customer experience, or business ventures.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-feather="mail"></i>
+                            <a href="mailto:dharangiri144@gmail.com">Dharangiri144@gmail.com</a>
+                        </div>
+                        <!--<div class="contact-item">
+                            <i data-feather="phone"></i>
+                            <span>+91 XXXXX XXXXX</span>
+                        </div> -->
+                        <div class="contact-item">
+                            <i data-feather="map-pin"></i>
+                            <span>Chennai, India</span>
+                        </div>
+                    </div>
+                    
+                    <!--<div class="social-links">
+                        <a href="#" class="social-link terracotta" aria-label="Instagram">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link sage" aria-label="LinkedIn">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link dusty-rose" aria-label="Twitter">
+                            <i data-feather="twitter"></i>
+                        </a>
+                    </div> -->
+                </div>
+                
+               <!---- <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        Send Message
+                        <i data-feather="send"></i>
+                    </button>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Giri Dharan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
